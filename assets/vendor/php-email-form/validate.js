@@ -161,5 +161,4 @@
       this_form.find('.error-message').slideDown().html(error_msg);
     });
   }
-
 })(jQuery);
