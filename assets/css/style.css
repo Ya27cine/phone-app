@@ -26,6 +26,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1598,3 +1600,45 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+/*--------------------------------------------------------------
+# Personnaliser couleurs
+--------------------------------------------------------------*/
+/* Couleur des iconfont à la deuxième couleur */
+.second-color-text{
+  color: #ef6603;
+}
+
+.second-color-bg{
+  background-color: #ef6603;
+}
+
+.medium-icon{
+  font-size: 2em;
+}
+
+/* style de hr small */
+.x-small{
+  width: 20%;
+  border-color: #fc8129;
+}
+
+/* Style bouton coloré */
+.btn-colored{
+  background: #ef6603;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+/* center la table */
+table.center {
+  margin-right: auto;
+
+  margin-left: auto;
+}
+}
+
