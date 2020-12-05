@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: #BCE5AF;
+  background: #65A353ED;
 }
 
 #header .logo h1 {
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #88CF6A;
+  color: #AAEC8E;
   text-decoration: none;
   text-shadow: 1px 1px #7D9075;
 }
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #464646;
+  color: #fff;
   padding: 5px 15px 7px 15px;
   margin-left: 5px;
   transition: 0.3s;
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, #88CF6A 0%, #C7E3C5 100%);
+  background: linear-gradient(0deg, #88CF6A 0%, #5C964B 100%);
   padding: 0;
 }
 
@@ -694,7 +694,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #89BE81;
+  background: #5C964B;
   padding: 80px 0;
 }
 
