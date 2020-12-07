@@ -965,17 +965,17 @@
           </div>
           <div class="tab-pane" id="tab-contact">
             <div class="row">
-              <div id="contact" class="contact">
+              <div id="contact" class="contact col-lg-12">
                 <div class="container">
 
-                  <div class="section-title" data-aos="zoom-out">
+                  <div class="section-title aos-init aos-animate" data-aos="zoom-out">
                     <h2>Contact</h2>
                     <p>Faire appel au formulaire de contact</p>
                   </div>
 
-                  <div class="row mt-5">
+                  <div class="row">
 
-                    <div class="col-lg-4" data-aos="fade-right">
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-right">
                       <div class="info">
                         <div class="address">
                           <i class="icofont-google-map"></i>
@@ -992,29 +992,28 @@
                         <div class="phone">
                           <i class="icofont-phone"></i>
                           <h4>Tel:</h4>
-                          <p><a href="tel:1234567890" class=tel> </a></p>
-
+                          <p><a href="tel:+123456789" class="tel">+123456789</a></p>
                         </div>
 
                       </div>
+                      <hr>
 
                     </div>
 
-                    <div class="row" data-aos="fade-left">
-
+                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-left">
                       <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="form-row">
                           <div class="col-md-6 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                             <div class="validate"></div>
                           </div>
                           <div class="col-md-6 form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="Please enter a valid email">
                             <div class="validate"></div>
                           </div>
                         </div>
                         <div class="form-group">
-                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
                           <div class="validate"></div>
                         </div>
                         <div class="form-group">
@@ -1022,9 +1021,9 @@
                           <div class="validate"></div>
                         </div>
                         <div class="mb-3">
-                          <div class="loading">Loading</div>
+                          <div class="loading">Chargement...</div>
                           <div class="error-message"></div>
-                          <div class="sent-message">Your message has been sent. Thank you!</div>
+                          <div class="sent-message">Merci! Votre message a été envoyé avec succès!</div>
                         </div>
                         <div class="text-center"><button type="submit">Envoyer le message</button></div>
                       </form>
