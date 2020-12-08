@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: transparent;
+  background: #374942d6;
 }
 
 #header.header-scrolled {
@@ -333,8 +333,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, #88CF6A 0%, #5C964B 100%);
+  /*background: linear-gradient(0deg, #88CF6A 0%, #5C964B 100%);*/
   padding: 0;
+  background: url(../img/acc-tmp-12.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #hero .carousel-container {
@@ -346,13 +351,16 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   height: 70vh;
   padding-top: 60px;
+  width: 80%;
+  margin: auto;
 }
 
 #hero h2 {
   color: #424242;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
+  width: 80%;
 }
 
 #hero p {
