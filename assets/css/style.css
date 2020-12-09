@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-transparent {
-  background: #374942d6;
+  background: #7d8e78b3;
 }
 
 #header.header-scrolled {
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   /*background: linear-gradient(0deg, #88CF6A 0%, #5C964B 100%);*/
   padding: 0;
-  background: url(../img/acc-tmp-12.png) no-repeat center center fixed; 
+  background: url(../img/acc-tmp-18.png) no-repeat left center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
