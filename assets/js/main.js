@@ -169,6 +169,26 @@
       $('.venobox').venobox();
     });
   });
+  $(window).on('load', function() {
+    var accessoiresIsotope = $('.accessoires-container').isotope({
+      itemSelector: '.accessoires-item'
+    });
+
+    $('#accessoires-flters li').on('click', function() {
+      $("#accessoires-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+
+      accessoiresIsotope.isotope({
+        filter: $(this).data('filter')
+      });
+      aos_init();
+    });
+
+    // Initiate venobox (lightbox feature used in portofilo)
+    $(document).ready(function() {
+      $('.venobox').venobox();
+    });
+  });
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
