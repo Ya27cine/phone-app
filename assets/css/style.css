@@ -756,14 +756,15 @@ section {
 # Couque
 --------------------------------------------------------------*/
 .coq-title {
-  font-size: 25pt;
-  font-weight: 500;
-  line-height: 1px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: black;
-  font-family: "Poppins", sans-serif;
-  padding: 7pt;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-left: 10%;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    padding: 7pt;
 }
 
 
