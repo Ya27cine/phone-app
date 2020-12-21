@@ -25,10 +25,9 @@
         <hr>
         <h5> ".$_POST['name']." vous a contacté via phone-flore.fr .</h5>
         <h6 style='color: blue;'>".$_POST['name']." vous a envoyé le message suivant :</h6>
-        <h3 style='color: red;'>Message :</h3>
         <p>".$_POST['message']."
         </p>
-        <p>Pour répondre à ce message cliquer sur <a href='mailto:".$_POST['email']."' > ".$_POST['email']."
+        <p>Pour répondre à ce message, merci de cliquer sur <a href='mailto:".$_POST['email']."' > ".$_POST['email']."
         </p>
 
     </div>";
